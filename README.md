@@ -1,50 +1,96 @@
-# Welcome to your Expo app 👋
+# 🔌 API Hub
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application built with React Native and Expo for API integration and management.
 
-## Get started
+## 🚀 About
 
-1. Install dependencies
+API Hub is a comprehensive mobile application that helps you explore, test, and manage APIs. Built with modern technologies including TypeScript and React Native, it provides a seamless experience for developers working with APIs on the go.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- **🔌 Seamless API Integration:** Connect, explore, and test endpoints easily.
+- **📱 Mobile-First Design:** Optimized specifically for iOS and Android displays.
+- **🎨 Intuitive User Interface:** Clean and easy-to-navigate experience.
+- **⚡ Fast Performance:** Powered by the React Native core engine.
+- **🔒 Type-Safe Code:** Built robustly with TypeScript.
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **Framework:** React Native
+- **Toolchain:** Expo (Managed Workflow)
+- **Language:** TypeScript (88.4%) & JavaScript (11.6%)
+- **Routing:** Expo Router (File-based routing)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📂 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+```text
+apihub/
+├── app/              # Main application code with file-based routing
+├── components/       # Reusable React components
+├── hooks/            # Custom React hooks
+├── constants/        # Application constants
+├── data/             # Static data and mock API responses
+├── assets/           # Images, fonts, and other static assets
+├── scripts/          # Utility scripts
+├── app.json          # Expo app configuration
+├── app.config.js     # Extended app configuration
+├── tsconfig.json     # TypeScript configuration
+├── package.json      # Project dependencies
+└── eslint.config.js  # ESLint configuration
+```
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+### 1. Prerequisites
+Ensure your development environment is ready:
+- Node.js (v16 or higher)
+- npm or yarn package manager
+- Expo CLI
+- iOS Simulator (macOS) or Android Emulator
 
+### 2. Installation
+Clone the repository and install the dependencies:
 ```bash
+npm install
+```
+
+### 3. Running the App
+Start the development server:
+```bash
+npx expo start
+```
+Once the server is running, you can open the app using:
+- **Expo Go App:** Scan the QR code (quick sandbox).
+- **iOS Simulator:** Press `i` in the terminal (macOS only).
+- **Android Emulator:** Press `a` in the terminal.
+- **Web Browser:** Press `w` to run on web.
+
+### 4. Additional Commands
+```bash
+# Start with a specific platform directly
+npx expo start --ios
+npx expo start --android
+
+# Reset project (clears app-example and creates a fresh app directory)
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📚 Learn More
 
-## Learn more
+For more information about the technologies used in this project:
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Documentation](https://reactnative.dev/)
+- [Expo Router Guide](https://docs.expo.dev/router/introduction/)
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🤝 Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
 
-## Join the community
+## 📝 License
 
-Join our community of developers creating universal apps.
+This project is open source and available under the **MIT License**.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 💬 Support & Community
+
+- [GitHub Issues](https://github.com/avesin/apihub/issues) - Report bugs or request features
+- [Expo Community Discord](https://chat.expo.dev)
